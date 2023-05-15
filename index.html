@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paulino & Victoria</title>
 
-    <meta name="description" content="Currículum de la familia Alcántara Moreno" />
+    <meta name="description" content="Familia Alcántara Moreno" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <!-- TODO: script para que coja el tema según el sistema operativo -->
+
     <script>
       (function (){
         const userTheme = localStorage.getItem("theme");
@@ -34,7 +37,8 @@
           localStorage.setItem("theme", newTheme);
         };
       })();
-    </script>
+    </script> 
+       <!-- TODO: Fin del script para que coja el tema según el sistema operativo -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -66,7 +70,7 @@
           />
           <div class="logotype">
              Alcántara Moreno<br />
-             { familia }
+                 { familia }
           </div>
         </a>
 
@@ -74,7 +78,9 @@
           <button class="close-menu" aria-label="Cerrar menú">
             <img src="img/close-icon.svg" alt="cerrar menú" />
           </button>
-          <li><a href="#profile" class="selected">Inicio</a></li>
+          <li><a href="#profile" class="selected">Inicio</a>
+            <li> <a href="./html/david.html"></a></li>
+          </li>
           <li><a href="#experience">Hijos</a></li>
           <li><a href="#skills">nietos</a></li>
           <li><a href="#contact">contacto</a></li>

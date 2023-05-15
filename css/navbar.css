@@ -35,7 +35,7 @@
   display: none;
 }
 
-/* Logo */
+/*TODO: Logo */
 
 .logo {
   display: flex;
@@ -50,7 +50,7 @@
   border-radius: 50%;
 }
 
-/* Menu */
+/*TODO: Menu */
 .menu {
   display: flex;
   list-style: none;
@@ -84,7 +84,7 @@
   transition: opacity 0.3s;
 }
 
-/* .menu a:hover::after, */
+/*TODO: .menu a:hover::after, se lo quito y si se activa lo que aparece será una linea debajo de link del menú sobre el que se posiciona el ratón */
 .menu a.selected::after {
   opacity: 0.8;
 }
@@ -101,11 +101,17 @@
 
 .logotype {
   display: flex;
+  margin-left: .9375rem;
   justify-content: center;
 }
 
 @media (max-width: 950px) {
-  /* Menu */
+  .logo img {
+    height: 60px;
+    width: 60px;
+  }
+
+  /*TODO: Menu */
   .menu {
     flex-direction: column;
     position: fixed;

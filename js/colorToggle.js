@@ -1,3 +1,5 @@
+// TODO: Cambiar entre modo oscuro y claro
+
 const lightModeBtn = document.querySelector(".light-mode-btn");
 const darkModeBtn = document.querySelector(".dark-mode-btn");
 
@@ -6,9 +8,8 @@ darkModeBtn.addEventListener("click", setLightMode);
 
 function setDarkMode() {
   __setUserTheme("dark");
-}
+  }
 
 function setLightMode() {
   __setUserTheme("light");
 }
-
